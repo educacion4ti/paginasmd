@@ -18,6 +18,6 @@ También puedo usar :smile:
 
 Y continuar explicando de qué se trata el uso de Markdown desde Visual Studio Code.
 
-[enlace al documento practicaM03.md](/practicaM03.md)
+[enlace al documento practicaM03.md](/practicaM03_curso.html)
 
 ![imagen01](img/auto.png "Automovil del año")
