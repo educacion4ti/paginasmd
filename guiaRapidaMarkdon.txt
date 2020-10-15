@@ -1,0 +1,242 @@
+Guía rápida de sintaxis Markdown
+===========================
+
+Esta guía le muestra cómo utilizar Markdown en lugar de HTML cuando
+escribir publicaciones o comentarios.
+
+Markdown es mucho más fácil de usar que HTML. (Pero aún puede usar HTML en el
+al mismo tiempo si realmente quieres y sabes cómo).
+
+Simplemente escriba en el cuadro de comentarios * de la misma manera que se muestra en este archivo *, es
+realmente así de simple.
+
+(Consulte la parte inferior para obtener más información sobre Markdown).
+
+Enlaces
+-----
+
+Para una URL o correo electrónico, escríbalo así:
+
+<http://someurl>
+
+<somebbob@example.com>
+
+
+Para usar texto para el enlace, escríbalo [así] (http: // someurl).
+
+Puede agregar un * título * (que aparece debajo del cursor),
+[como este](http://url.html "este título aparece cuando pasas el mouse").
+
+Enlace a referencias
+---------------
+
+También puede poner la [URL del enlace][1] debajo del párrafo actual como [éste][2].
+
+   [1]: http://url
+   [2]: http://another.url "Un título divertido"
+
+Aquí el texto "URL del enlace" queda enlazado a "http://url", y las líneas mostrando \[1\]: http://url no mostrarán nada.
+
+
+O también puede usar un [atajo][] a la referencia, que enlaza el texto "atajo" al enlace con el nombre "[atajo]" en el siguiente párrafo.
+
+   [atajo]: http://goes/with/the/link/name/text
+   
+
+Texto
+----
+
+Usa * o _ para hacer énfasis:
+
+*esto es itálico*  y _también esto_
+
+**estas son negritas**  y __también esto__
+
+***esto es itálico y negritas***  y ___también esto___
+
+
+Simplemente escriba párrafos como en un archivo de texto y se mostrarán cómo lo haría
+esperar. Una línea en blanco separa los párrafos.
+
+Entonces este es un nuevo párrafo. Pero cualquier texto en líneas adyacentes
+todo acabará en el mismo párrafo.
+
+
+Bloques
+----------
+
+> Utilice el carácter > delante de una línea, * como en el correo electrónico *.
+> Úselo si está citando a una persona, una canción o lo que sea.
+
+> Puede usar * cursiva * o listas dentro de ellos también.
+Y al igual que con otros párrafos, todas estas líneas siguen
+parte de la cita en bloque, incluso sin el carácter > al frente.
+
+Para finalizar la cita en bloque, simplemente ponga una línea en blanco antes del siguiente párrafo.
+
+Texto preformateado
+----------------
+
+Si desea que algún texto aparezca exactamente como lo escribe, sin Markdown
+haciéndole algo, simplemente sangra cada línea con al menos 4 espacios (o 1 tabulador).
+
+    Esta línea no * tendrá ningún formato de Markdown * aplicado.
+    Incluso puedo escribir <b> HTML </b> y aparecerá como texto.
+    Esto es excelente para mostrar el código fuente del programa, HTML o incluso Markdown.
+    <b> esto no aparecerá como HTML </b> sino exactamente <i> como lo ve en
+    este archivo de texto </i>.
+
+(En un párrafo normal, <b> esto se mostrará en negrita </b> como HTML normal).
+    
+   Recuerde, debe sangrar por * al menos 4 espacios * para hacerlo. Este párrafo
+   no tendrá formato previo.
+   
+Y si utilizas links a [referencia][], asegúrese de que los enlaces estén sangrados por *menos de* 4 espacios.
+   
+     [referencia]: http://example.com/blah
+
+(Vaya, ese enlace no funcionó, ¿ves? Simplemente se mostró como texto preformateado).
+
+Como atajo, puede usar comillas inversas para hacer lo mismo mientras está adentro
+un párrafo normal. `Esto no será * cursiva * o ** negrita ** en absoluto\`.
+
+Listas
+--------
+
+* un asterisco inicia una lista desordenada
+* y este es otro elemento de la lista
++ o también puede usar el caracter +
+- o el caracter - 
+
+Para una lista ordenada:
+
+1. Esto inicia una lista *con* números
+1.  esto mostrará un número "2"
+1.  esto mostrará un número "3."
+9. cualquier número, +, -, or * mantendrá la lista.
+    * utilice 4 espacios o el tabulador para crear una sublista
+        1. sigua usando la indentación para más sublistas
+    * de nuevo en un segundo nivel de la sublista
+        
+        
+Encabezados
+---------
+
+Este es un encabezado grande
+==================
+
+Este es un encabezado más pequeño
+------------------
+
+Simplemente coloque 1 o más guiones o signos de igual (--- o ===) debajo del título.
+
+Puede usar el encabezado enorme en la parte superior del texto para un título o
+algo (excepto las publicaciones de blogs que generalmente ya tienen un título), y use el
+encabezado más pequeño para subtítulos o secciones.
+
+
+Reglas horizontales
+---------------
+
+Colocar tres o más *'s  o -'s en una misma línea:
+
+----------------
+
+también puede usar con símbolos entre ellos, como se a continuación:
+
+
+* * *
+
+o 
+
+- - - - - - - 
+
+Sin embargo, asegúrese de tener una línea en blanco encima de los guiones, o de lo contrario:
+
+obtendrás un encabezado
+--- 
+
+
+Imágenes
+-----------
+
+Para incluir una imagen, sólo escribe un "!" frente a un enlace de texto:
+
+![texto alternativo](https://media.giphy.com/media/5A7sTpwSe204tzael4/giphy.gif)
+
+
+El "texto alternativo" se mostrará si el navegador no puede cargar la imagen.
+
+También puede usar un título como éste:
+
+![icono](https://icons.iconarchive.com/icons/hopstarter/flag-borderless/96/Mexico-icon.png "icono México")
+
+
+
+Escapes
+---------
+
+¿Qué sucede si solo desea mostrar asteriscos, no cursiva?
+
+* esto aparece en cursiva: * un día feliz *
+* esto muestra los asteriscos: \ * un día feliz \ *
+
+Las barras invertidas desaparecerán y dejarán asteriscos.
+
+Puedes hacer lo mismo con cualquiera de los caracteres que tengan un significado especial
+para Markdown.
+
+Más encabezados
+----------
+
+Más formas de hacer encabezados:
+
+# este es un encabezado enorme #
+## este es un encabezado más pequeño ##
+### esto es aún más pequeño ###
+#### más pequeño ####
+##### aún más pequeña #####
+###### más pequeño aún: encabezado `<h6>`
+
+Puede utilizar hasta 6 caracteres `#` al principio de la línea.
+(Opcionalmente, también puede ponerlos al final y desaparecerán).
+
+   
+
+Desechos HTML
+-------------
+
+No se preocupe por los caracteres HTML especiales. Puedo escribir un ampersand & y un
+signo menos que - , y se muestran como pretendo:  3 < 4.
+
+(Todavía puedes escribir `&amp;` (& character) y `&lt;` (<) o `&gt;` (>) si quieres. 
+O ignorarlos como había comentado antes.)
+
+
+Acerca de
+---------
+
+Este archivo de texto ejemplifica cómo usar [Markdown][] en lugar de utilizar HTML cuando
+se escriben publicaciones o comentarios.
+   
+   [Markdown]: http://daringfireball.net/projects/markdown/syntax
+
+Markdown es una forma más sencilla de crear páginas HTML a partir de texto, en lugar de tener que
+saber HTML.
+
+* Vea este archivo como se ve cuando es [renderizado con Markdown][].
+* Ver el [archivo de texto original][].
+
+   [renderizado con Markdown]: http://greg.vario.us/doc/markdown.text
+   [archivo de texto original]: http://greg.vario.us/doc/markdown.txt
+
+Agradecimientos
+---------
+
+Gracias a John Gruber y Aaron Swartz por crear Markdown.
+
+Fin
+---------
+
+Sin derechos reservados, úsalo como quieras.
+Escrito por Greg Schueler, <greg@vario.us> en su versión original en Inglés.
