@@ -16,9 +16,7 @@ ___Texto en cursiva y negrita___
 
 A continuación se muestra un [Link](img/database.png "Título opcional del enlace").
 
-Bienvenidos a este proyecto
 
-
-[enlace al documento practicaM03.md](/practicaM03.md)
+[enlace al documento practicaM03.md](/practicaM03_curso.html)
 
 ![imagen01](img/auto.png "Automovil del año")
