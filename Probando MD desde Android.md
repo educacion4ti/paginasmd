@@ -17,3 +17,7 @@ Este es un ejemplo de cómo puedo *sincronizar* mis notas desde el celular a un 
 También puedo usar :smile:
 
 Y continuar explicando de qué se trata el uso de Markdown desde Visual Studio Code.
+
+[enlace al documento practicaM03.md](/practicaM03.md)
+
+![imagen01](img/auto.png "Automovil del año")
