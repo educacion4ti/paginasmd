@@ -15,3 +15,5 @@ Este es un ejemplo de cómo puedo *sincronizar* mis notas desde el celular a un 
 * Empezar a escribir
 
 También puedo usar :smile:
+
+Y continuar explicando de qué se trata el uso de Markdown desde Visual Studio Code.
